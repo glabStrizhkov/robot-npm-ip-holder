@@ -1,22 +1,3 @@
-# robot-npm-ip-holder
-npm module for working with we service ipHolder
-This module help you to get and/or send your IP address to the server.
-
-## install
-```shell
-npm install robot-npm-ip-holder --save
-```
-
-## Usage
-```js
-/*
-* Add module to the project using require
-*/
-const { IP } = require('robot-npm-ip-holder');
-
-/*
-* declare variables of url of the host that wait for your data and your device id
-*/
 /*
 * Add module to the project using require
 */
@@ -52,8 +33,3 @@ const sendIP = new IP(url, id);
     const response = sendIP.getIP();
     console.log(response);
 })();
-```
-
-## references
-* support: glabstrizhkovgit@gmail.com
-
