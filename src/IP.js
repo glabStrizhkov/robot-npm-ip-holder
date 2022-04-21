@@ -33,6 +33,7 @@ class IP {
 
         }
         const axiosRes = await axios.POST(this.holderUrl, data);
+        if(axiosRes.error) return axiosRes;
         return await axiosRes.response.data;
     }
 
