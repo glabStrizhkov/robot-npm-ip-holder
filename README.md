@@ -58,4 +58,5 @@ const sendIP = new IP(url, id);
 
 ## references
 * support: glabstrizhkovgit@gmail.com
+* changelog: https://github.com/glabStrizhkov/robot-npm-ip-holder/blob/master/CHANGELOG.md
 
