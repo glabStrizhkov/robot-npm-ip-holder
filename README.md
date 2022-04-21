@@ -1,5 +1,5 @@
 # robot-npm-ip-holder 
-*1.0.1-onlyserver*
+*1.0.2-onlyserver*
 
 npm module for working with we service ipHolder
 This module help you to get and/or send your IP address to the server.
